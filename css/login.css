@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Jolly+Lodger&family=Kdam+Thmor+Pro&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.login-form {
+    display: flex;
+    height: 95vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    font-family: 'Jolly Lodger', sans-serif;
+}
+
+.login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.login-header img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.login-header h1 {
+    color: #8958FF;
+    font-size: 4.5rem;
+}
+
+.login-input {
+    width: 300px;
+    height: 40px;
+    border: 2px solid #212121;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.login-button {
+    width: 200px;
+    height: 40px;
+    background-color: #8958FF;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+}
+
+footer {
+    width: 100vw;
+    height: 5vh;
+    background-color: #111;
+    align-content: center;
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
